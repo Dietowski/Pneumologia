@@ -79,7 +79,23 @@ section button:hover {
         border-radius: 5px;
     }
 }
-
+.resultados-pesquisa2 {
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 46vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+    &::-webkit-scrollbar {
+        width: 10px;
+        background-color: #0a0552;
+        border-radius: 5px;
+      }
+    &::-webkit-scrollbar-thumb {
+        background-color: #3d82db;
+        border-radius: 5px;
+    }
+}
 /* Estiliza cada item de resultado */
 .item-resultado {
     background: #FFFFFF; /* Cor de fundo dos itens */
