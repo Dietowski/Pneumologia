@@ -30,7 +30,7 @@ function pesquisa() {
         // Concatena HTML formatado para cada elemento, criando uma div com as informações da doença
         resultados += `
           <div class="item-resultado">
-            <h2><a href="#" target="_blank">${dado.nome}</a></h2> 
+            <h2><a href=${dado.link2} target="_blank">${dado.nome}</a></h2> 
             <p class="descricao-meta">${dado.descricao}</p> 
             <p class="descricao-meta">${dado.sintomas}</p>
             <p class="descricao-meta">${dado.fatoresDeRisco}</p>
